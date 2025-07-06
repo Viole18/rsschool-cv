@@ -1,5 +1,7 @@
+# [rsschool-cv]()
 ***
-# __Arthur Price__
+## __Arthur Price__
+![](https://www.codewars.com/avatars/6592d7b8fbfb3a74d1b0983b)
 ***
 ### CONTACTS
 - #### Location: _Minsk, Belarus_ 
