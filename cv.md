@@ -8,7 +8,7 @@
 - #### Phone: _+375291111111_
 - #### E-mail: _violejgrays@gmail.com_
 - #### GitHub: _[Viole18](https://github.com/Viole18)_
-
+1
 ***
 ### ABOUT ME
 > #### I am a motivated learner with a strong interest in technology. I enjoy solving problems, developing new skills, and growing as a developer. I strive to learn and improve every day. I believe that persistence, curiosity, and a desire to grow will help me build a successful career in IT.
@@ -42,7 +42,6 @@ function solution(number){
 ***
 ### EDUCATION
 __BNTU__ Information technology and robotics _2017 - 2021_
-
 ***
 ### EXPERIENCE
 ***
