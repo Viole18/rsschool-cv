@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/resetStyle.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Arthur Price CV</title>
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="left">
+            <section class="main-info">
+                <img class="avatar" src="./assets/image/ava.png" alt="avatar of Arthur">
+                <h1 class="name">Artur Price</h1>
+                <p class="work-position">Front-end developer</p>
+            </section>
+            <section>
+                <h2 class="secondary-title">CONTACTS</h2>
+                <ul class="secondary-ul">
+                    <li class="contacts-info"><a href="mailto:violejgrays@gmail.com" target="_blank"><img class="email-icon" src="./assets/icons/email.svg" alt="email">violejgrays@gmail.com</a></li>
+                    <li class="contacts-info"><a href="tel:+375291111111" target="_blank"><img class="phone-icon" src="./assets/icons/phone.svg" alt="phone-icon">+375291111111</a></li>
+                    <li class="contacts-info"><a href="https://github.com/Viole18" target="_blank"><img class="git-icon" src="./assets/icons/git.svg" alt="git-icon">Viole18</a></li>
+                    <li class="contacts-info"><img class="location-icon" src="./assets/icons/location.svg" alt="location-icon">Minsk, Belarus</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="secondary-title">SKILLS</h2>
+                <ul class="secondary-ul">
+                    <li class="contacts-info with-point">HTML</li>
+                    <li class="contacts-info with-point">CSS</li>
+                    <li class="contacts-info with-point">Java Script</li>
+                    <li class="contacts-info with-point">Figma</li>
+                    <li class="contacts-info with-point">GIT</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="secondary-title">LANGUAGE</h2>
+                <ul class="secondary-ul">
+                    <li class="contacts-info with-point">Russian</li>
+                    <li class="contacts-info with-point">Belarussian</li>
+                    <li class="contacts-info with-point">English (A2)</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="secondary-title">EDUCATION</h2>
+                <ul class="secondary-ul">
+                    <li class="contacts-info with-point">BNTU Information technology and robotics 2017 - 2021</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right">
+            <section>
+                <h2 class="primary-title">ABOUT ME</h2>
+                <p class="primary-text">I am a motivated learner with a strong interest in technology. I enjoy solving problems, developing new skills, and growing as a developer. I strive to learn and improve every day. I believe that persistence, curiosity, and a desire to grow will help me build a successful career in IT.</p>
+            </section>
+            <section>
+                <h2 class="primary-title">EXPERIENCE</h2>
+                <ul class="experience-ul">
+                    <li class="primary-li"><span class="experience-name">Frontend Developer Intern (Training & Practice)</span>
+                        <div class="experience-date">July 2023 – July 2024</div>
+                        <ul class="experience-ul-2">
+                            <li class="primary-with-point">Studied HTML and CSS: semantic structure, box model, basic styling.</li>
+                            <li class="primary-with-point">Practiced layout building through personal projects such as landing pages and online resumes.</li>
+                            <li class="primary-with-point">Learned Flexbox and CSS Grid for responsive design.</li>
+                            <li class="primary-with-point">Recreated website layouts from Figma designs (pixel-perfect implementation).</li>
+                            <li class="primary-with-point">Gained experience with Git and GitHub, uploaded code to repositories.</li>
+                        </ul>
+                    </li>
+                    <!--<li class="primary-li"><span class="experience-name">Junior Frontend Developer (Freelance & Personal Projects)</span>
+                        <div class="experience-date">July 2024 – July 2025</div>
+                        <ul class="experience-ul-2">
+                            <li class="primary-with-point">Built and deployed personal web projects using HTML, CSS, and basic JavaScript.</li>
+                            <li class="primary-with-point">Implemented interactive components: navigation menus, modals, and form validation.</li>
+                            <li class="primary-with-point">Focused on responsive, cross-browser compatible design.</li>
+                            <li class="primary-with-point">Applied CSS custom properties and organized code using BEM methodology.</li>
+                            <li class="primary-with-point">Deployed websites via GitHub Pages; participated in online challenges and mini hackathons.</li>
+                            <li class="primary-with-point">Started learning JavaScript frameworks (e.g., React).</li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </section>
+            <section>
+                <h2 class="primary-title">CODE EXAMPLE</h2>
+                <blockquote class="code-text">
+                    If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
+                    The sum of these multiples is 23.
+                    Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
+                    Additionally, if the number is negative, return 0.
+                    Note: If the number is a multiple of both 3 and 5, only count it once.
+                </blockquote>
+
+                <div class="code-block">
+<pre><code>
+function solution(number) {
+    let result = 0;
+    if (number < 1) {
+        return 0;
+    } else {
+        for (let i = 1; i < number; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+                result += i;
+            }
+        }
+    }
+    return result;
+}
+</code></pre>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+<footer>
+    <div><a href="https://github.com/Viole18">Viole18</a></div>
+    <div>2025</div>
+    <div><a href="https://rs.school/courses/javascript-ru"><img class="logo" src="./assets/icons/rs-school-logo.svg" alt="logo">
+    </a></div>
+
+</footer>
+</body>
+</html>
