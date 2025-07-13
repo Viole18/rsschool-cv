@@ -59,7 +59,7 @@ __BNTU__ Information technology and robotics _2017 - 2021_
 
 ***
 
-### ENGLISH
+### LANGUAGE
 + Russian
 + Belarussian
 + English(A2)
