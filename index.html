@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/resetStyle.css">
     <link rel="stylesheet" href="styles/variables.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Arthur Price CV</title>
 </head>
 <body>
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#example">Example code</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+</header>
 <main>
     <div class="container">
         <div class="left">
@@ -20,18 +33,18 @@
                 <h1 class="name">Artur Price</h1>
                 <p class="work-position">Front-end developer</p>
             </section>
-            <section>
+            <section id="contacts">
                 <h2 class="secondary-title">CONTACTS</h2>
                 <nav>
                     <ul class="secondary-ul">
-                        <li class="contacts-info"><a href="mailto:violejgrays@gmail.com" target="_blank"><img aria-hidden="true" class="email-icon" src="./assets/icons/email.svg" alt="">violejgrays@gmail.com</a></li>
-                        <li class="contacts-info"><a href="tel:+375291111111" target="_blank"><img aria-hidden="true" class="phone-icon" src="./assets/icons/phone.svg" alt="">+375291111111</a></li>
-                        <li class="contacts-info"><a href="https://github.com/Viole18" target="_blank"><img aria-hidden="true" class="git-icon" src="./assets/icons/git.svg" alt="">Viole18</a></li>
-                        <li class="contacts-info"><img aria-hidden="true" class="location-icon" src="./assets/icons/location.svg" alt="">Minsk, Belarus</li>
+                        <li class="contacts-info contacts-info-scale"><a href="mailto:violejgrays@gmail.com" target="_blank"><img aria-hidden="true" class="email-icon" src="./assets/icons/email.svg" alt="">violejgrays@gmail.com</a></li>
+                        <li class="contacts-info contacts-info-scale"><a href="tel:+375291111111" target="_blank"><img aria-hidden="true" class="phone-icon" src="./assets/icons/phone.svg" alt="">+375291111111</a></li>
+                        <li class="contacts-info contacts-info-scale"><a href="https://github.com/Viole18" target="_blank"><img aria-hidden="true" class="git-icon" src="./assets/icons/git.svg" alt="">Viole18</a></li>
+                        <li class="contacts-info contacts-info-scale"><img aria-hidden="true" class="location-icon" src="./assets/icons/location.svg" alt="">Minsk, Belarus</li>
                     </ul>
                 </nav>
             </section>
-            <section>
+            <section id="skills">
                 <h2 class="secondary-title">SKILLS</h2>
                 <ul class="secondary-ul">
                     <li class="contacts-info with-point">HTML</li>
@@ -41,7 +54,7 @@
                     <li class="contacts-info with-point">GIT</li>
                 </ul>
             </section>
-            <section>
+            <section id="languages">
                 <h2 class="secondary-title">LANGUAGE</h2>
                 <ul class="secondary-ul">
                     <li class="contacts-info with-point">Russian</li>
@@ -49,7 +62,7 @@
                     <li class="contacts-info with-point">English (A2)</li>
                 </ul>
             </section>
-            <section>
+            <section id="education">
                 <h2 class="secondary-title">EDUCATION</h2>
                 <ul class="secondary-ul">
                     <li class="contacts-info with-point">BNTU Information technology and robotics 2017 - 2021</li>
@@ -57,11 +70,11 @@
             </section>
         </div>
         <div class="right">
-            <section>
+            <section id="about">
                 <h2 class="primary-title">ABOUT ME</h2>
                 <p class="primary-text">I am a motivated learner with a strong interest in technology. I enjoy solving problems, developing new skills, and growing as a developer. I strive to learn and improve every day. I believe that persistence, curiosity, and a desire to grow will help me build a successful career in IT.</p>
             </section>
-            <section>
+            <section id="experience">
                 <h2 class="primary-title">EXPERIENCE</h2>
                 <ul class="experience-ul">
                     <li class="primary-li"><span class="experience-name">Frontend Developer Intern (Training & Practice)</span>
@@ -87,7 +100,7 @@
                     </li>-->
                 </ul>
             </section>
-            <section>
+            <section id="example">
                 <h2 class="primary-title">CODE EXAMPLE</h2>
                 <blockquote class="code-text">
                     If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
@@ -115,13 +128,29 @@ function solution(number) {
 </code></pre>
                 </div>
             </section>
+            <section id="projects">
+                <h2 class="primary-title">PROJECTS</h2>
+                <ul class="projects-ul">
+                    <li class="projects-li"><p>CV :</p>
+                        <a class="project-link" href="https://github.com/Viole18/rsschool-cv/tree/gh-pages" target="_blank" class="projects-link">https://github.com/Viole18/rsschool-cv/tree/gh-pages</a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </div>
 </main>
-<footer>
-    <div><a href="https://github.com/Viole18">Viole18</a></div>
-    <div>2025</div>
-    <div><a href="https://rs.school/courses/javascript-ru"><img class="logo" src="./assets/icons/rs-school-logo.svg" alt="RS School Logo"></a></div>
+<footer class="footer">
+    <div class="footer-content">
+    <p>©2025 by Arthur Price</p>
+    <div>
+        <a class="footer-logo" href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img class="footer-logo" src="assets/icons/rs-logo.svg" alt="rs-school-logo"></a>
+    </div>
+    <div>
+        <a class="git-logo" href="https://github.com/Viole18" target="_blank">
+            <img class="git-logo" src="assets/icons/git-logo.svg" alt="git-logo"></a>
+    </div>
+    </div>
 </footer>
 </body>
 </html>
